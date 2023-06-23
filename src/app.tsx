@@ -50,7 +50,7 @@ export const layout: RunTimeLayoutConfig = () => {
  * https://umijs.org/docs/max/request
  */
 export const request: RequestConfig = {
-  baseURL: 'http://43.143.236.81:8102/api',
+  baseURL: 'http://localhost:8102/api',
   timeout: 10000,
   withCredentials: true,
   // other axios options you want
