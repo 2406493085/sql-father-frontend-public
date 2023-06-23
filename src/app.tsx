@@ -43,14 +43,14 @@ export const layout: RunTimeLayoutConfig = () => {
   };
 };
 
-const isDev = process.env.NODE_ENV === 'development';
+//const isDev = process.env.NODE_ENV === 'development';
 
 /**
  * 全局请求配置
  * https://umijs.org/docs/max/request
  */
 export const request: RequestConfig = {
-  baseURL: isDev ? 'http://localhost:8102/api' : '你的线上接口地址',
+  baseURL: 'http://43.143.236.81:8102/api',
   timeout: 10000,
   withCredentials: true,
   // other axios options you want
